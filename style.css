@@ -38,9 +38,10 @@ ul {
     gap: 30px;
 }
 
-
-ul > li > img > p:hover {
-    border: solid 2px white;
+.card:hover > img{
+    border: 2px solid white;
+}
+.card:hover > p{
     color: white;
 }
 
@@ -53,12 +54,15 @@ button {
     border-radius: 10px;
     align-items: center;
 }
-
-button:hover{
-    border: solid 2px gray;
-    align-items: center;
+.button:hover{
+     border: solid 2px black;
+     background-color: white;
 }
 
+.button:hover > p {
+    background-color: white;
+    color: black;
+}
 footer{
     width: 100%;
     display:flex;
