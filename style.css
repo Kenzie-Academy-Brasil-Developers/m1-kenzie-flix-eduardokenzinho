@@ -22,8 +22,12 @@ header > img {
      width: 25%;
     height: 10%;  
 }
-
-main {
+li > img{
+    width: 150px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+ul {
     margin-bottom: 50px;
     margin-top: 50px;
     width: 1000px;
@@ -31,25 +35,13 @@ main {
     display:flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
-main > div{
-    width: 20%;
-}
 
-main > div> div{
-    width: 150px;
-}
-
-main > div> div> img{
-    border-radius: 10px;
-    width: 100%;
-    border: solid 2px black;
-}
-
-main > div> div> img:hover{
+ul > li > img > p:hover {
     border: solid 2px white;
+    color: white;
 }
 
 button {
